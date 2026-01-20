@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 app.use(cors({
-    origin: ["https://task-manager-backend-mauve.vercel.app","http://localhost:3000"],
+    origin: ["https://task-manager-frontend-two-theta.vercel.app/","http://localhost:3000"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true   
